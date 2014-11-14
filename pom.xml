@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>angular-moment</artifactId>
-    <version>0.8.3-SNAPSHOT</version>
+    <version>0.8.2-1-SNAPSHOT</version>
     <name>angular-moment</name>
     <description>WebJar for angular-moment</description>
     <url>http://webjars.org</url>
@@ -20,7 +20,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <upstream.version>0.8.2</upstream.version>
         <upstream.url>https://raw.github.com/urish/angular-moment/${upstream.version}</upstream.url>
-        <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${upstream.version}</destDir>
+        <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${project.version}</destDir>
         <requirejs>
             {
                 "paths": { "angular-moment": "angular-moment" },
