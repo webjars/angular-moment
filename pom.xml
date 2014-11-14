@@ -96,6 +96,18 @@
                             <toDir>${destDir}</toDir>
                         </configuration>
                     </execution>
+                    <execution>
+                        <id>download-min-js-map</id>
+                        <phase>process-resources</phase>
+                        <goals>
+                            <goal>download-single</goal>
+                        </goals>
+                        <configuration>
+                            <url>${upstream.url}</url>
+                            <fromFile>angular-moment.min.js.map</fromFile>
+                            <toDir>${destDir}</toDir>
+                        </configuration>
+                    </execution>
                 </executions>
             </plugin>
 
