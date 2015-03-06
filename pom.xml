@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>angular-moment</artifactId>
-    <version>0.9.0</version>
+    <version>0.9.1-SNAPSHOT</version>
     <name>angular-moment</name>
     <description>WebJar for angular-moment</description>
     <url>http://webjars.org</url>
@@ -49,7 +49,7 @@
         <url>http://github.com/webjars/angular-moment</url>
         <connection>scm:git:https://github.com/webjars/angular-moment.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/angular-moment.git</developerConnection>
-        <tag>angular-moment-0.9.0</tag>
+        <tag>HEAD</tag>
     </scm>
     
     <dependencies>
